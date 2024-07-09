@@ -1,6 +1,8 @@
 h1 {
-    color: #27aedb;
     text-align: center;
+    border :1px solid black;
+    color: #142d44; 
+    font-weight: bold;
     }
     
 
@@ -9,4 +11,61 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.header{
+    
+}
+
+.menu-guide{
+
+    display: flex;
+    justify-content: center;
+  
+}
+
+.menu-items{
+    display: flex;
+   
+    width: 500px;
+    justify-content: space-between;
+    color: #cfb283;
+    cursor: pointer;
+}
+
+.food{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+     border: 1px solid black;
+    display: flex;
+    width: 500px;
+}
+
+.image{
+    
+    height: 200px;
+    width: 300px;
+}
+
+.menu-header{
+   
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-card{
+  
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
